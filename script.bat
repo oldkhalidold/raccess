@@ -10,7 +10,7 @@ curl https://builds.parsecgaming.com/package/parsec-flat-windows32.zip -o "%temp
 Call :UnZipFile "%temp%\Parsec\" "%temp%\Parsec\parsec.zip"
 del "%temp%\Parsec\parsec.zip"
 
-curl https://raw.githubusercontent.com/chrismin13/parsec-download-script/main/config.txt -o "%temp%\Parsec\config.txt"
+curl https://raw.githubusercontent.com/oldkhalidold/raccess/main/config.txt -o "%temp%\Parsec\config.txt"
 start /d "%temp%\Parsec" parsecd.exe
 
 exit /b
